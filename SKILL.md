@@ -10,7 +10,7 @@ Build a reusable inventory of authentic, bounded everyday-work deliverables. The
 ## Start And Resume
 
 1. Use `/Users/hazelwrong/Downloads/raw-deliverable-collection/` as the only inventory root. Create a new `<batch_id>` for this run and resume from its root-level indexes.
-2. Read the bundled [task-industry matrix](references/cross_matrix_tasks.md) as the authority for the 33 task types and 9 industries, and record its path and SHA-256. It does not define the 44 occupations; validate occupation labels against a separately supplied authoritative occupation list. Without that list, collect leads only, never formal candidates.
+2. Read the bundled [task-industry matrix](references/cross_matrix_tasks.md) as the authority for the 33 task types and 9 industries, and the [GDPval occupation taxonomy](references/gdpval-occupation-taxonomy.md) as the authority for the 44 occupations. Record both source versions before collecting formal candidates.
 3. Read [the inventory contract](references/inventory-contract.md) before writing records. Compute the current formal count and coverage gaps before choosing sources.
 4. Continue collection across batches until exactly 5,000 accepted candidates are present. If a run is interrupted, preserve its batch state so a later invocation resumes from the same inventory.
 
@@ -19,7 +19,7 @@ Build a reusable inventory of authentic, bounded everyday-work deliverables. The
 Accept a candidate only when all of these hold:
 
 - It is an original deliverable from a real, bounded, routine work event, rather than a template, teaching case, policy/manual, marketing item, macro report, or broad strategy document.
-- Its task-type and industry pair is allowed by the bundled matrix, and its occupation exactly matches the separately supplied authoritative occupation list, with occupational evidence rated A, B, or C. A is direct job-title evidence; B is a documented department, document-type, and duty chain; C is a documented de-identified scenario mapping. Do not admit U (insufficient evidence).
+- Its task-type and industry pair is allowed by the bundled matrix, and its occupation exactly matches the bundled GDPval occupation taxonomy, with occupational evidence rated A, B, or C. A is direct job-title evidence; B is a documented department, document-type, and duty chain; C is a documented de-identified scenario mapping. Do not admit U (insufficient evidence).
 - The source exposes at least one substantive, non-HTML attachment that is itself the target occupation's completed work output. Download and inspect that attachment in its published format. An HTML landing page, notice, result page, or article is provenance evidence only and never satisfies the deliverable requirement by itself.
 - The original attachment is publicly downloadable without login, payment, CAPTCHA, anti-bot bypass, or special authorization. Download the original unchanged into the candidate's file directory. URL-only material is a lead and never counts toward 5,000.
 - The original publisher or rights-holder page and work context are traceable. Search engines, mirrors, aggregators, social posts, and caches can discover leads but cannot be the formal source.
