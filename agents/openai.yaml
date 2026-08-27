@@ -1,0 +1,7 @@
+interface:
+  display_name: "真实交付物采集"
+  short_description: "连续采集可核验的真实日常工作交付物原始文件库存并统计覆盖缺口"
+  default_prompt: "Use $raw-deliverable-collection to resume collecting authentic daily-work deliverable originals from the configured matrix."
+
+policy:
+  allow_implicit_invocation: true
