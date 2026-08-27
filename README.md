@@ -2,7 +2,7 @@
 
 Codex skill for collecting authentic, publicly accessible everyday-work deliverable attachments against a validated industry-and-occupation matrix.
 
-This repository contains only the skill instructions and inventory contract. It does not contain collected source files, candidate inventories, or client data.
+This repository contains the skill instructions, inventory contract, and bundled 33-task-type by 9-industry matrix. It does not contain collected source files, candidate inventories, or client data.
 
 ## Install
 
